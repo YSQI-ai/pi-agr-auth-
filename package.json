@@ -1,0 +1,23 @@
+{
+  "name": "pi-antigravity-auth",
+  "version": "1.0.0",
+  "description": "Antigravity (free Gemini/Claude) auth + models for pi coding agent, ported from opencode-antigravity-auth",
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "keywords": ["pi-package", "pi-extension", "antigravity", "gemini", "auth"],
+  "dependencies": {
+    "opencode-antigravity-auth": "^1.6.0"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-ai": "*",
+    "typebox": "*"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YSQI-ai/pi-antigravity-auth.git"
+  }
+}
